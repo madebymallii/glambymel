@@ -3,9 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<h1 class="lipstick-red" style="font-family: 'Playfair Display', serif; font-size: 3rem; margin-bottom: 20px;">
-  Glam by Mel
-</h1>
 <script src="https://cdn.tailwindcss.com"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -136,20 +133,18 @@ html {
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 <div class="flex justify-between items-center h-16 sm:h-20">
 <a href="#home" class="font-display text-xl sm:text-2xl lipstick-red font-semibold flex items-center gap-2">
-  <!-- Logo Placeholder -->
   <div class="w-10 h-10 rounded-full bg-lipstick-red flex items-center justify-center">
     <span class="font-bold text-white text-lg">GM</span>
   </div>
   Glam by Mel
 </a>
-<!-- Desktop Menu -->
 <div class="hidden md:flex items-center space-x-8">
 <a href="#home" class="nav-link text-sm uppercase tracking-wider charcoal hover:text-lipstick-red">Home</a>
 <a href="#services" class="nav-link text-sm uppercase tracking-wider charcoal hover:text-lipstick-red">Services</a>
+<a href="#gallery" class="nav-link text-sm uppercase tracking-wider charcoal hover:text-lipstick-red">Gallery</a>
 <a href="#reviews" class="nav-link text-sm uppercase tracking-wider charcoal hover:text-lipstick-red">Reviews</a>
 <a href="#book" class="btn-lipstick px-6 py-2 text-white font-semibold text-sm uppercase tracking-wider">Book Now</a>
 </div>
-<!-- Mobile Menu Button -->
 <button id="mobile-menu-btn" class="md:hidden charcoal p-2">
 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -157,11 +152,11 @@ html {
 </button>
 </div>
 </div>
-<!-- Mobile Menu -->
 <div id="mobile-menu" class="mobile-menu md:hidden">
 <div class="flex flex-col p-6 space-y-6">
 <a href="#home" class="charcoal hover:text-lipstick-red uppercase tracking-wider" onclick="closeMobileMenu()">Home</a>
 <a href="#services" class="charcoal hover:text-lipstick-red uppercase tracking-wider" onclick="closeMobileMenu()">Services</a>
+<a href="#gallery" class="charcoal hover:text-lipstick-red uppercase tracking-wider" onclick="closeMobileMenu()">Gallery</a>
 <a href="#reviews" class="charcoal hover:text-lipstick-red uppercase tracking-wider" onclick="closeMobileMenu()">Reviews</a>
 <a href="#book" class="btn-lipstick px-6 py-3 text-white font-semibold text-center uppercase tracking-wider" onclick="closeMobileMenu()">Book Now</a>
 </div>
@@ -239,7 +234,6 @@ Passionate about enhancing your natural beauty, I specialize in creating stunnin
 <p class="charcoal">Professional beauty services tailored to your needs</p>
 </div>
 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-<!-- Makeup Services -->
 <div class="service-card card-glass p-8">
 <div class="w-14 h-14 rounded-full bg-lipstick-red/20 flex items-center justify-center mb-6">
 <svg class="w-7 h-7 text-lipstick-red" viewBox="0 0 24 24" fill="currentColor">
@@ -270,7 +264,6 @@ Passionate about enhancing your natural beauty, I specialize in creating stunnin
 <p class="charcoal mb-4">Subtle enhancement for everyday elegance and professional settings</p>
 <div class="text-lipstick-red font-semibold">From $80</div>
 </div>
-<!-- Hair Services -->
 <div class="service-card card-glass p-8">
 <div class="w-14 h-14 rounded-full bg-lipstick-red/20 flex items-center justify-center mb-6">
 <svg class="w-7 h-7 text-lipstick-red" viewBox="0 0 24 24" fill="currentColor">
@@ -301,6 +294,26 @@ Passionate about enhancing your natural beauty, I specialize in creating stunnin
 <p class="charcoal mb-4">Complete makeup & hair transformation for the ultimate experience</p>
 <div class="text-lipstick-red font-semibold">From $350</div>
 </div>
+</div>
+</div>
+</section>
+
+<!-- Client Gallery Section -->
+<section id="gallery" class="py-20 px-4 cream-bg">
+<div class="max-w-6xl mx-auto">
+<div class="text-center mb-12">
+<h2 class="font-display text-3xl sm:text-4xl md:text-5xl mb-4 lipstick-red">Client Gallery</h2>
+<p class="charcoal">Real transformations, real confidence</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+<img src="https://i.ibb.co/rRYmPZxQ/image.jpg" alt="Client Glam Look" class="w-full h-auto rounded-lg shadow-md">
+<img src="https://i.ibb.co/Fk1Wqjvs/image.jpg" alt="Client Glam Look" class="w-full h-auto rounded-lg shadow-md">
+<img src="https://i.ibb.co/8wCtxnB/image.jpg" alt="Client Glam Look" class="w-full h-auto rounded-lg shadow-md">
+<img src="https://i.ibb.co/QjFQv16N/image.jpg" alt="Client Glam Look" class="w-full h-auto rounded-lg shadow-md">
+<img src="https://i.ibb.co/GfSb4hwz/image.jpg" alt="Client Glam Look" class="w-full h-auto rounded-lg shadow-md">
+<img src="https://i.ibb.co/Fb38ysdz/image.jpg" alt="Client Glam Look" class="w-full h-auto rounded-lg shadow-md">
+<img src="https://i.ibb.co/mrrFx6Rm/image.jpg" alt="Client Glam Look" class="w-full h-auto rounded-lg shadow-md">
+<img src="https://i.ibb.co/rR6K86q9/GLAM.png" alt="Client Glam Look" class="w-full h-auto rounded-lg shadow-md">
 </div>
 </div>
 </section>
@@ -374,7 +387,6 @@ Passionate about enhancing your natural beauty, I specialize in creating stunnin
 <div class="max-w-4xl mx-auto">
 <div class="text-center mb-16">
 <h2 class="font-display text-3xl sm:text-4xl md:text-5xl mb-4 lipstick-red">Book Your Appointment</h2>
-<img src="https://i.ibb.co/rRYmPZxQ/image.jpg" alt="Client Glam Look" style="max-width: 100%; height: auto; margin-top: 30px;">
 <p class="charcoal">Let's create your perfect look together</p>
 </div>
 <div class="card-glass p-8 md:p-12">
@@ -460,7 +472,6 @@ Passionate about enhancing your natural beauty, I specialize in creating stunnin
 </div>
 </footer>
 
-<!-- Toast Container -->
 <div id="toast-container"></div>
 
 <script>
